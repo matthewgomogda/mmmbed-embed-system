@@ -1,29 +1,23 @@
-# NISCAPE - Escaping NISC 2021
-This project was made during the [NeaPolis Innovation Summer Campus](https://www.neapolisinnovation.info) 2021 (in short, NISC 2021) by the Team 12 _"The Jailbreakers"_.
+# Embedded Systems Project - Made in 2023 by yours truly 
+     [Matthew Gomogda - @matthewgomogda]
 
-In alphabetical order:
-* Alessandro De Vita (@allexio2288)
-* Antonello Florio (@antonelloflorio)
-* Chiara Capocello (@Chiarettc)
-* Francesco Erminio Di Fruscio (@fradifruscio)
-* Francesco Di Nucci (@f-dinucci)
-* Marco Rausa (@MarcoRausa)
+## Description
+quirky lil solo project making a yung brainbuster type puzzle program development - goal is to make the most insufferable embedded systems project to ever be.
+, yungcall me yung brainbuster i be on some nerdy shit.
 
-It is one of the [three joint winner projects.](https://www.facebook.com/NeaPolisInnovation/posts/2985577571657598)
+The game is divided into two zones: 
+* In the first one, answer correctly to three questions to unlock the door for zone 2
+* In the second zone the difficulty level is increased: the user has to answer to the questions within 4 seconds.
 
-## Description and gameplay
-The aim of the project is to create an "escape room" game based on questions regarding the Neapolis Innovation Summer Campus 2021 syllabus. 
-
-The game is divided into two rooms: 
-* In the first one, the user has to answer correctly to three questions to open the door and to access the second room. 
-* In the second room the difficulty level is increased: the user has to answer to the questions within 4 seconds. To exit from the second room, and so winning the game, the user has to answer correctly to two questions. 
+## What 
+To exit from the second zone i.e. winning the game, the user has to answer correctly to two questions. 
 
 The user has three lives (displayed through LEDs). If he loses them, he loses the game. The user loses one life when the answer is wrong or the time has ran out.
 
 ## Game implementation
 
 ### Player board (Master)
-In summary: _a board that is connected to a computer and is used to show questions and answer, to solve the escape room._ 
+In summary: _a board that is connected to a computer and is used to show questions and answer
 
 The questions will be chosen randomly from a given set and they will be displayed on the PC (using a virtual COM port) with all the possible answers.
  
