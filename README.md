@@ -1,5 +1,4 @@
-# Embedded Systems Project - Made in 2023 by yours truly 
-     [Matthew Gomogda - @matthewgomogda]
+# Embedded Systems 
 
 ## Description
 quirky lil solo project making a yung brainbuster type puzzle program
